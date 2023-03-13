@@ -1,0 +1,172 @@
+{
+  "mod_elements": [
+    {
+      "name": "EndswordPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endexpension/item/EndswordPickaxeItem.java",
+          "src/main/resources/assets/end_expension/models/item/endsword_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndswordAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_expension/models/item/endsword_axe.json",
+          "src/main/java/net/mcreator/endexpension/item/EndswordAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndswordSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_expension/models/item/endsword_sword.json",
+          "src/main/java/net/mcreator/endexpension/item/EndswordSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndswordShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endexpension/item/EndswordShovelItem.java",
+          "src/main/resources/assets/end_expension/models/item/endsword_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EndswordHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_expension/models/item/endsword_hoe.json",
+          "src/main/java/net/mcreator/endexpension/item/EndswordHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndswordPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/endsword_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndswordAxeRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/endsword_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndswordSwordRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/endsword_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndswordShovelRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/endsword_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndswordHoeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endsword_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/endsword_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.end_expension.endsword_shovel": "Endsword Shovel",
+      "item.end_expension.endsword_pickaxe": "Endsword Pickaxe",
+      "item.end_expension.endsword_axe": "Endsword Axe",
+      "item.end_expension.endsword_hoe": "Endsword Hoe",
+      "item.end_expension.endsword_sword": "Endsword Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "end_expension",
+    "modName": "End Expension",
+    "version": "1.0.0",
+    "author": "Milan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.endexpension",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
