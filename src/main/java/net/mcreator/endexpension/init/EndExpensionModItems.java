@@ -10,10 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.endexpension.item.EndswordSwordItem;
-import net.mcreator.endexpension.item.EndswordShovelItem;
-import net.mcreator.endexpension.item.EndswordPickaxeItem;
-import net.mcreator.endexpension.item.EndswordAxeItem;
 import net.mcreator.endexpension.EndExpensionMod;
 
 public class EndExpensionModItems {

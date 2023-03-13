@@ -1,6 +1,5 @@
 {
-  "item.end_expension.endsword_shovel": "Endsword Shovel",
-  "item.end_expension.endsword_pickaxe": "Endsword Pickaxe",
-  "item.end_expension.endsword_axe": "Endsword Axe",
-  "item.end_expension.endsword_sword": "Endsword Sword"
+  "block.end_expension.sapphire_ore": "Sapphire Ore",
+  "block.end_expension.sapphire_block": "Block of Sapphire",
+  "item.end_expension.sapphire_ingot": "Sapphire"
 }

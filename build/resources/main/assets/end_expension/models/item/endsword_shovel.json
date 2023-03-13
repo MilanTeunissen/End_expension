@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "end_expension:items/endsword_shovel"
-  }
-}

@@ -1,0 +1,116 @@
+{
+  "mod_elements": [
+    {
+      "name": "SapphireIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_expension/models/item/sapphire_ingot.json",
+          "src/main/java/net/mcreator/endexpension/item/SapphireIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endexpension/world/features/ores/SapphireOreFeature.java",
+          "src/main/resources/assets/end_expension/models/item/sapphire_ore.json",
+          "src/main/resources/data/end_expension/forge/biome_modifier/sapphire_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/endexpension/block/SapphireOreBlock.java",
+          "src/main/resources/assets/end_expension/models/block/sapphire_ore.json",
+          "src/main/resources/assets/end_expension/blockstates/sapphire_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SapphireBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/end_expension/blockstates/sapphire_block.json",
+          "src/main/resources/assets/end_expension/models/block/sapphire_block.json",
+          "src/main/java/net/mcreator/endexpension/block/SapphireBlockBlock.java",
+          "src/main/resources/assets/end_expension/models/item/sapphire_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SapphireOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/sapphire_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SapphireBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/sapphire_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SapphireOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/end_expension/recipes/sapphire_ore_smelting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.end_expension.sapphire_ore": "Sapphire Ore",
+      "block.end_expension.sapphire_block": "Block of Sapphire",
+      "item.end_expension.sapphire_ingot": "Sapphire"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "end_expension",
+    "modName": "End Expension",
+    "version": "1.0.0",
+    "author": "Milan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.endexpension",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
