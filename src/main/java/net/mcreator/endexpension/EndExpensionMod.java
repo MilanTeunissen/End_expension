@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.endexpension.init.EndExpensionModItems;
+import net.mcreator.endexpension.init.EndExpensionModFeatures;
+import net.mcreator.endexpension.init.EndExpensionModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,7 +52,10 @@ public class EndExpensionMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		EndExpensionModBlocks.REGISTRY.register(bus);
 		EndExpensionModItems.REGISTRY.register(bus);
+
+		EndExpensionModFeatures.REGISTRY.register(bus);
 
 	}
 

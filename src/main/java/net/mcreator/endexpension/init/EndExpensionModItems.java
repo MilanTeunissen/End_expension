@@ -8,18 +8,21 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.endexpension.item.EndswordSwordItem;
-import net.mcreator.endexpension.item.EndswordShovelItem;
-import net.mcreator.endexpension.item.EndswordPickaxeItem;
-import net.mcreator.endexpension.item.EndswordAxeItem;
+import net.mcreator.endexpension.item.SapphireIngotItem;
 import net.mcreator.endexpension.EndExpensionMod;
 
 public class EndExpensionModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EndExpensionMod.MODID);
-	public static final RegistryObject<Item> ENDSWORD_AXE = REGISTRY.register("endsword_axe", () -> new EndswordAxeItem());
-	public static final RegistryObject<Item> ENDSWORD_PICKAXE = REGISTRY.register("endsword_pickaxe", () -> new EndswordPickaxeItem());
-	public static final RegistryObject<Item> ENDSWORD_SWORD = REGISTRY.register("endsword_sword", () -> new EndswordSwordItem());
-	public static final RegistryObject<Item> ENDSWORD_SHOVEL = REGISTRY.register("endsword_shovel", () -> new EndswordShovelItem());
+	public static final RegistryObject<Item> SAPPHIRE_BLOCK = block(EndExpensionModBlocks.SAPPHIRE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SAPPHIRE_ORE = block(EndExpensionModBlocks.SAPPHIRE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SAPPHIRE_INGOT = REGISTRY.register("sapphire_ingot", () -> new SapphireIngotItem());
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

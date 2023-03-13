@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "end_expension:sapphire_ore"
+  },
+  "result": "end_expension:sapphire_ingot"
+}
